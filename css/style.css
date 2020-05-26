@@ -10,6 +10,8 @@ html{
     font-size: 62.5%;
     box-sizing: border-box;
     min-height: 100%;
+    overflow: hidden;
+    height: 100%;
 }
 
 *, *:before, *:after {
@@ -17,6 +19,8 @@ html{
 }
 
 body{
+    height: 100%;
+    overflow: auto;
     font-family: 'Krub', sans-serif;
     min-height: 100%;
     background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
